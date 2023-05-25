@@ -1,3 +1,9 @@
+import { Layout } from "@/components/layout/Layout";
+
 export default function Home() {
-  return <h1>Kanban app</h1>;
+  return (
+    <Layout>
+      <h1>Kanban app</h1>
+    </Layout>
+  );
 }
